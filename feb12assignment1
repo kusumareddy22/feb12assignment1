@@ -1,0 +1,40 @@
+#program to preapare supermarket bill
+dp=24
+bg=120
+gb=300
+hhp=200
+oils=60
+cname=input('enter customer name:')
+cphno=int(input('enter customer phone number:'))
+dpq=int(intpu('no.of diary products:'))
+bgq=int(input('no.of backed goods:'))
+gbq=int(input('no.of grains and bread:'))
+hhpq=int(input('no.of household products:'))
+oilsq=int(input('no.of oil packets:'))
+bill=(dp*dpq)+(bg*bgq)+(gb*gbq)+(hhp*hhpq)+(oils*oilsq)
+print('total bill:',bill)
+if bill>5000:
+   disc=bill*10/100
+else bill>3000:
+   disc=bill*8/100
+   tax=bill*10/100
+elif bill>2000:
+   disc=bill*5/100
+elilf bill>1000:
+   disc=bill*3/100
+else 
+   tax=bill*18/100
+   print('tax:',tax)
+print('discount:',disc)
+
+
+OUTPUT
+enter customer name:kusuma
+enter customer phone number:789456321
+no.of dairy products:10
+no.of backed goods:9
+no.of grains and bread:12
+no.of household products:15
+no.of oil packets:5
+total bill:13780
+dicount:1378.0
