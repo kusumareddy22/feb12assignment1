@@ -1,0 +1,17 @@
+#comapre two numbers are equal,not equal,one num is  greater than another one and one num is smaller than another one
+a=int(input('enter a:')
+b=int(input('enter b:')
+if a==b:
+   print('a is equal to b:')
+else:
+   print('a is not equal to b:')
+if a>b:
+   print('a is greater than b:')
+else:
+   print('a is lesser than b:')
+   
+   OUTPUT
+   enter a:24
+   enter b:25
+   a is not equal to b:
+   a is lesser than b:
